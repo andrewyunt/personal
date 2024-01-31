@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="./images/andrewyunt.jpg" alt="Me" width="150px" height="150px">
+            <h1>Andrew Yunt</h1>
+            <p>Software Engineer</p>
+            <p>Hi my name is <strong>Andrew Yunt</strong>, and I'm a senior studying Computer Science at Iowa State University.</p>
+            <p>I'm passionate about learning new technologies, brainstorming new ideas, and building creative solutions. During my time in college I have had four software engineering internships, in which I gained experience with Python, Golang, Kubernetes, and AWS.</p>
+            <p>During my time in college I also co-founded an AI-based resume building startup which did not work out, but I learned many great lessons. I hope to found my own company again in the future when the time is right.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/resume_raise_logo.jpg" alt="Resume Raise Logo">
+                <h3>Resume Raise</h3>
+                <p>One of the biggest projects I have created is the backend for my previous startup. The backend was written primarily in C#, but also had some components written in Python for natural language processing.
+                    The project featured a resume building system that supported multiple templates, resume content sections, and allowed exporting resumes to both docx and pdf formats.
+                    The resume builder also integrated with OpenAI and had a system for receiving automated resume feedback.
+                    I spent over 6 months working on this project with another teammate, commiting code on a frequent basis.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at <a href="mailto:ayunt@iastate.edu">ayunt@iastate.edu</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Andrew Yunt</p>
+    </footer>
+</body>
+</html>
